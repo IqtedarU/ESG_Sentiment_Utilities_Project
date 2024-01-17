@@ -8,7 +8,7 @@ from nltk.stem import WordNetLemmatizer
 import re
 
 API_URL = "https://api-inference.huggingface.co/models/ProsusAI/finbert"  # This is Finbert model
-headers = {"Authorization": f"Bearer {'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'}"} # This is my API key in case you want to test.
+headers = {"Authorization": f"Bearer {'[API KEY]'}"} # This is my API key in case you want to test.
 sentiment_scores = {'positive': 1, 'neutral': 0, 'negative': -1} # Mapping for calculations
 tickers = ['NEE', 'DUK', 'D', 'SO', 'AEP','EIX','ED','PEG','ETR','WEC','CMS','PNW','AGR','ALE','POR','CNP','AES','NI','EVRG','IDA'] #List Of Stocks
 
